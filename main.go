@@ -14,8 +14,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 
-	"github.com/rancher/harvester/pkg/config"
-	"github.com/rancher/harvester/pkg/server"
+	"github.com/rancher/harvester-server/pkg/config"
+	"github.com/rancher/harvester-server/pkg/server"
 )
 
 var (

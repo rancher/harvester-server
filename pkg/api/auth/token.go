@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/rancher/harvester/pkg/auth/jwt"
+	"github.com/rancher/harvester-server/pkg/auth/jwt"
 
 	"github.com/pkg/errors"
 	"k8s.io/apiserver/pkg/authentication/user"

@@ -3,14 +3,15 @@ package api
 import (
 	"context"
 
-	"github.com/rancher/harvester/pkg/api/datavolume"
-	"github.com/rancher/harvester/pkg/api/image"
-	"github.com/rancher/harvester/pkg/api/keypair"
-	"github.com/rancher/harvester/pkg/api/network"
-	"github.com/rancher/harvester/pkg/api/user"
-	"github.com/rancher/harvester/pkg/api/vm"
-	"github.com/rancher/harvester/pkg/api/vmtemplate"
-	"github.com/rancher/harvester/pkg/config"
+	"github.com/rancher/harvester-server/pkg/api/datavolume"
+	"github.com/rancher/harvester-server/pkg/api/image"
+	"github.com/rancher/harvester-server/pkg/api/keypair"
+	"github.com/rancher/harvester-server/pkg/api/network"
+	"github.com/rancher/harvester-server/pkg/api/user"
+	"github.com/rancher/harvester-server/pkg/api/vm"
+	"github.com/rancher/harvester-server/pkg/api/vmtemplate"
+	"github.com/rancher/harvester-server/pkg/config"
+
 	"github.com/rancher/steve/pkg/server"
 )
 

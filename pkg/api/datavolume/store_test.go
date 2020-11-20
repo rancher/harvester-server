@@ -11,9 +11,9 @@ import (
 	kv1alpha3 "kubevirt.io/client-go/api/v1alpha3"
 	cdiapis "kubevirt.io/containerized-data-importer/pkg/apis/core/v1beta1"
 
-	"github.com/rancher/harvester/pkg/generated/clientset/versioned/fake"
-	cditype "github.com/rancher/harvester/pkg/generated/clientset/versioned/typed/cdi.kubevirt.io/v1beta1"
-	cdiv1beta1 "github.com/rancher/harvester/pkg/generated/controllers/cdi.kubevirt.io/v1beta1"
+	"github.com/rancher/harvester-server/pkg/generated/clientset/versioned/fake"
+	cditype "github.com/rancher/harvester-server/pkg/generated/clientset/versioned/typed/cdi.kubevirt.io/v1beta1"
+	cdiv1beta1 "github.com/rancher/harvester-server/pkg/generated/controllers/cdi.kubevirt.io/v1beta1"
 )
 
 func TestDataVolumeDelete(t *testing.T) {

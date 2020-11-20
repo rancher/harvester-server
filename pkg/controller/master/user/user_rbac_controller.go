@@ -1,15 +1,15 @@
 package user
 
 import (
-	"github.com/rancher/harvester/pkg/apis/harvester.cattle.io/v1alpha1"
-	apisv1alpha1 "github.com/rancher/harvester/pkg/apis/harvester.cattle.io/v1alpha1"
-	ctlapisv1alpha1 "github.com/rancher/harvester/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
-	"github.com/rancher/harvester/pkg/indexeres"
-	apierrors "k8s.io/apimachinery/pkg/api/errors"
+	"github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io/v1alpha1"
+	apisv1alpha1 "github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io/v1alpha1"
+	ctlapisv1alpha1 "github.com/rancher/harvester-server/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
+	"github.com/rancher/harvester-server/pkg/indexeres"
 
 	ctlrbacv1 "github.com/rancher/wrangler-api/pkg/generated/controllers/rbac/v1"
 	"github.com/sirupsen/logrus"
 	k8srbacv1 "k8s.io/api/rbac/v1"
+	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

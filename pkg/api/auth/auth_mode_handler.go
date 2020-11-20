@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/rancher/harvester/pkg/apis/harvester.cattle.io/v1alpha1"
-	"github.com/rancher/harvester/pkg/settings"
+	"github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io/v1alpha1"
+	"github.com/rancher/harvester-server/pkg/settings"
 )
 
 func ModeHandler(rw http.ResponseWriter, r *http.Request) {

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rancher/harvester/pkg/apis/harvester.cattle.io/v1alpha1"
-	"github.com/rancher/harvester/pkg/config"
-	ctlalpha1 "github.com/rancher/harvester/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
-	"github.com/rancher/harvester/pkg/indexeres"
+	"github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io/v1alpha1"
+	"github.com/rancher/harvester-server/pkg/config"
+	ctlalpha1 "github.com/rancher/harvester-server/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
+	"github.com/rancher/harvester-server/pkg/indexeres"
 
 	dashboardauthapi "github.com/kubernetes/dashboard/src/app/backend/auth/api"
 	"github.com/pkg/errors"

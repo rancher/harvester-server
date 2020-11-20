@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/rancher/harvester/pkg/auth/jwe"
-	"github.com/rancher/harvester/pkg/config"
-	"github.com/rancher/harvester/pkg/settings"
+	"github.com/rancher/harvester-server/pkg/auth/jwe"
+	"github.com/rancher/harvester-server/pkg/config"
+	"github.com/rancher/harvester-server/pkg/settings"
 
 	"github.com/stretchr/testify/assert"
 	corev1 "k8s.io/api/core/v1"

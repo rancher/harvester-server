@@ -3,11 +3,12 @@ package global
 import (
 	"context"
 
-	"github.com/rancher/harvester/pkg/config"
-	"github.com/rancher/harvester/pkg/controller/global/auth"
-	"github.com/rancher/harvester/pkg/controller/global/settings"
-	"github.com/rancher/harvester/pkg/controller/global/template"
-	"github.com/rancher/harvester/pkg/indexeres"
+	"github.com/rancher/harvester-server/pkg/config"
+	"github.com/rancher/harvester-server/pkg/controller/global/auth"
+	"github.com/rancher/harvester-server/pkg/controller/global/settings"
+	"github.com/rancher/harvester-server/pkg/controller/global/template"
+	"github.com/rancher/harvester-server/pkg/indexeres"
+
 	"github.com/rancher/steve/pkg/server"
 )
 

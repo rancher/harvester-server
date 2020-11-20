@@ -3,7 +3,8 @@ package user
 import (
 	"sync"
 
-	"github.com/rancher/harvester/pkg/config"
+	"github.com/rancher/harvester-server/pkg/config"
+
 	"github.com/rancher/steve/pkg/schema"
 	"github.com/rancher/steve/pkg/server"
 	"github.com/rancher/steve/pkg/stores/proxy"

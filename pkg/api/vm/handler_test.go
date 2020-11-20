@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/rancher/harvester/pkg/generated/clientset/versioned/fake"
-	kubevirttype "github.com/rancher/harvester/pkg/generated/clientset/versioned/typed/kubevirt.io/v1alpha3"
-	kubevirtctrl "github.com/rancher/harvester/pkg/generated/controllers/kubevirt.io/v1alpha3"
+	"github.com/rancher/harvester-server/pkg/generated/clientset/versioned/fake"
+	kubevirttype "github.com/rancher/harvester-server/pkg/generated/clientset/versioned/typed/kubevirt.io/v1alpha3"
+	kubevirtctrl "github.com/rancher/harvester-server/pkg/generated/controllers/kubevirt.io/v1alpha3"
 
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"

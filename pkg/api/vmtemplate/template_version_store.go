@@ -7,9 +7,10 @@ import (
 
 	"github.com/rancher/apiserver/pkg/apierror"
 	"github.com/rancher/apiserver/pkg/types"
-	ctlvmv1alpha1 "github.com/rancher/harvester/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
-	"github.com/rancher/harvester/pkg/ref"
 	"github.com/rancher/wrangler/pkg/schemas/validation"
+
+	ctlvmv1alpha1 "github.com/rancher/harvester-server/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
+	"github.com/rancher/harvester-server/pkg/ref"
 )
 
 type templateVersionStore struct {

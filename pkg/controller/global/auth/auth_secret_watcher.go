@@ -14,8 +14,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/watch"
 
-	"github.com/rancher/harvester/pkg/auth/jwe"
-	"github.com/rancher/harvester/pkg/config"
+	"github.com/rancher/harvester-server/pkg/auth/jwe"
+	"github.com/rancher/harvester-server/pkg/config"
 )
 
 const (

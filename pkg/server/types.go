@@ -21,14 +21,14 @@ import (
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/rancher/harvester/pkg/api"
-	"github.com/rancher/harvester/pkg/api/auth"
-	"github.com/rancher/harvester/pkg/config"
-	"github.com/rancher/harvester/pkg/controller/crds"
-	"github.com/rancher/harvester/pkg/controller/global"
-	"github.com/rancher/harvester/pkg/controller/master"
-	"github.com/rancher/harvester/pkg/server/ui"
-	"github.com/rancher/harvester/pkg/settings"
+	"github.com/rancher/harvester-server/pkg/api"
+	"github.com/rancher/harvester-server/pkg/api/auth"
+	"github.com/rancher/harvester-server/pkg/config"
+	"github.com/rancher/harvester-server/pkg/controller/crds"
+	"github.com/rancher/harvester-server/pkg/controller/global"
+	"github.com/rancher/harvester-server/pkg/controller/master"
+	"github.com/rancher/harvester-server/pkg/server/ui"
+	"github.com/rancher/harvester-server/pkg/settings"
 )
 
 type HarvesterServer struct {

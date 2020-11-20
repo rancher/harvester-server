@@ -5,8 +5,8 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	apisv1alpha1 "github.com/rancher/harvester/pkg/apis/harvester.cattle.io/v1alpha1"
-	"github.com/rancher/harvester/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
+	apisv1alpha1 "github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io/v1alpha1"
+	"github.com/rancher/harvester-server/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
 )
 
 // Handler computes key pairs' fingerprints

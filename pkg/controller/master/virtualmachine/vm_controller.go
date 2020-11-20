@@ -7,7 +7,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	kubevirtapis "kubevirt.io/client-go/api/v1alpha3"
 
-	cdictrl "github.com/rancher/harvester/pkg/generated/controllers/cdi.kubevirt.io/v1beta1"
+	cdictrl "github.com/rancher/harvester-server/pkg/generated/controllers/cdi.kubevirt.io/v1beta1"
 )
 
 type VMController struct {
