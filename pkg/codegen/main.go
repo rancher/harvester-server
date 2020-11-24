@@ -6,20 +6,20 @@ import (
 	"os"
 	"path/filepath"
 
+	harv1 "github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io/v1alpha1"
+
 	cniv1 "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/apis/k8s.cni.cncf.io/v1"
 	controllergen "github.com/rancher/wrangler/pkg/controller-gen"
 	"github.com/rancher/wrangler/pkg/controller-gen/args"
 	"github.com/sirupsen/logrus"
 	kubevirtv1 "kubevirt.io/client-go/api/v1alpha3"
 	cdiv1 "kubevirt.io/containerized-data-importer/pkg/apis/core/v1beta1"
-
-	harv1 "github.com/rancher/harvester/pkg/apis/harvester.cattle.io/v1alpha1"
 )
 
 func main() {
 	os.Unsetenv("GOPATH")
 	controllergen.Run(args.Options{
-		OutputPackage: "github.com/rancher/harvester/pkg/generated",
+		OutputPackage: "github.com/rancher/harvester-server/pkg/generated",
 		Boilerplate:   "scripts/boilerplate.go.txt",
 		Groups: map[string]args.Group{
 			"harvester.cattle.io": {

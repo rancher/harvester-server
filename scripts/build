@@ -20,7 +20,7 @@ DEFAULT_VALUES="{\"ui-index\":\"${UI_INDEX}\"}"
 
 LINKFLAGS="-X github.com/rancher/harvester.Version=$VERSION
            -X github.com/rancher/harvester.GitCommit=$COMMIT
-           -X github.com/rancher/harvester/pkg/settings.InjectDefaults=$DEFAULT_VALUES $LINKFLAGS"
+           -X github.com/rancher/harvester-server/pkg/settings.InjectDefaults=$DEFAULT_VALUES $LINKFLAGS"
 CGO_ENABLED=0 go build -ldflags "$LINKFLAGS $OTHER_LINKFLAGS" -o bin/harvester
 if [ "$CROSS" = "true" ] && [ "$ARCH" = "amd64" ]; then
     GOOS=darwin go build -ldflags "$LINKFLAGS" -o bin/harvester-darwin

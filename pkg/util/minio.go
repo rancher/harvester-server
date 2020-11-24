@@ -6,8 +6,9 @@ import (
 	"sync"
 
 	"github.com/minio/minio-go/v6"
-	"github.com/rancher/harvester/pkg/config"
 	"github.com/sirupsen/logrus"
+
+	"github.com/rancher/harvester-server/pkg/config"
 )
 
 const (

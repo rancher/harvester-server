@@ -21,7 +21,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	harvester "github.com/rancher/harvester/pkg/apis/harvester.cattle.io"
+	harvester "github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"

@@ -14,10 +14,10 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	virtv1alpha3 "kubevirt.io/client-go/api/v1alpha3"
 
-	harvesterapis "github.com/rancher/harvester/pkg/apis/harvester.cattle.io/v1alpha1"
-	"github.com/rancher/harvester/pkg/generated/clientset/versioned/fake"
-	harvestertype "github.com/rancher/harvester/pkg/generated/clientset/versioned/typed/harvester.cattle.io/v1alpha1"
-	ctrlapis "github.com/rancher/harvester/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
+	harvesterapis "github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io/v1alpha1"
+	"github.com/rancher/harvester-server/pkg/generated/clientset/versioned/fake"
+	harvestertype "github.com/rancher/harvester-server/pkg/generated/clientset/versioned/typed/harvester.cattle.io/v1alpha1"
+	ctrlapis "github.com/rancher/harvester-server/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
 )
 
 func TestTemplateHandler_OnChanged(t *testing.T) {

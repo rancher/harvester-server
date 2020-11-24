@@ -4,7 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/rancher/harvester/pkg/config"
+	"github.com/rancher/harvester-server/pkg/config"
+
 	appsv1 "github.com/rancher/wrangler-api/pkg/generated/controllers/apps/v1"
 	v1 "github.com/rancher/wrangler-api/pkg/generated/controllers/core/v1"
 	apiv1 "k8s.io/api/core/v1"

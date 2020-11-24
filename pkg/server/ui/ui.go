@@ -3,7 +3,7 @@ package ui
 import (
 	"net/http"
 
-	"github.com/rancher/harvester/pkg/settings"
+	"github.com/rancher/harvester-server/pkg/settings"
 )
 
 func Content() http.Handler {

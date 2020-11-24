@@ -2,7 +2,8 @@ package store
 
 import (
 	"github.com/rancher/apiserver/pkg/types"
-	"github.com/rancher/harvester/pkg/config"
+
+	"github.com/rancher/harvester-server/pkg/config"
 )
 
 type NamespaceStore struct {

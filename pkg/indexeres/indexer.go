@@ -1,8 +1,8 @@
 package indexeres
 
 import (
-	"github.com/rancher/harvester/pkg/apis/harvester.cattle.io/v1alpha1"
-	"github.com/rancher/harvester/pkg/config"
+	"github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io/v1alpha1"
+	"github.com/rancher/harvester-server/pkg/config"
 
 	rbacv1 "k8s.io/api/rbac/v1"
 )

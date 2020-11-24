@@ -3,8 +3,8 @@ package server
 import (
 	"net/http"
 
-	"github.com/rancher/harvester/pkg/api/auth"
-	"github.com/rancher/harvester/pkg/config"
+	"github.com/rancher/harvester-server/pkg/api/auth"
+	"github.com/rancher/harvester-server/pkg/config"
 
 	"github.com/gorilla/mux"
 	"github.com/rancher/apiserver/pkg/urlbuilder"

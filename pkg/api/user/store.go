@@ -8,9 +8,9 @@ import (
 	"strings"
 	"sync"
 
-	ctlvmv1alpha1 "github.com/rancher/harvester/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
-	"github.com/rancher/harvester/pkg/indexeres"
-	pkguser "github.com/rancher/harvester/pkg/user"
+	ctlvmv1alpha1 "github.com/rancher/harvester-server/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
+	"github.com/rancher/harvester-server/pkg/indexeres"
+	pkguser "github.com/rancher/harvester-server/pkg/user"
 
 	"github.com/rancher/apiserver/pkg/apierror"
 	"github.com/rancher/apiserver/pkg/types"

@@ -5,9 +5,9 @@ import (
 	"sort"
 	"sync"
 
-	apisv1alpha1 "github.com/rancher/harvester/pkg/apis/harvester.cattle.io/v1alpha1"
-	ctlapisv1alpha1 "github.com/rancher/harvester/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
-	"github.com/rancher/harvester/pkg/ref"
+	apisv1alpha1 "github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io/v1alpha1"
+	ctlapisv1alpha1 "github.com/rancher/harvester-server/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
+	"github.com/rancher/harvester-server/pkg/ref"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

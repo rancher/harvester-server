@@ -9,9 +9,10 @@ import (
 	"github.com/rancher/apiserver/pkg/apierror"
 	"github.com/rancher/apiserver/pkg/handlers"
 	"github.com/rancher/apiserver/pkg/types"
-	"github.com/rancher/harvester/pkg/controller/master/template"
-	ctlvmv1alpha1 "github.com/rancher/harvester/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
 	"github.com/rancher/wrangler/pkg/schemas/validation"
+
+	"github.com/rancher/harvester-server/pkg/controller/master/template"
+	ctlvmv1alpha1 "github.com/rancher/harvester-server/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
 )
 
 type templateLinkHandler struct {

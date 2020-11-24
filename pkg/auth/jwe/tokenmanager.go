@@ -7,10 +7,10 @@ import (
 
 	dashboardapi "github.com/kubernetes/dashboard/src/app/backend/auth/api"
 	dashboardjwt "github.com/kubernetes/dashboard/src/app/backend/auth/jwe"
-
-	authsync "github.com/rancher/harvester/pkg/auth/sync"
-	"github.com/rancher/harvester/pkg/settings"
 	ctlcorev1 "github.com/rancher/wrangler-api/pkg/generated/controllers/core/v1"
+
+	authsync "github.com/rancher/harvester-server/pkg/auth/sync"
+	"github.com/rancher/harvester-server/pkg/settings"
 )
 
 func NewJWETokenManager(secrets ctlcorev1.SecretClient, namespace string) (tokenManager dashboardapi.TokenManager, err error) {

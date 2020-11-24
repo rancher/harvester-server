@@ -8,12 +8,13 @@ import (
 
 	"github.com/rancher/apiserver/pkg/apierror"
 	"github.com/rancher/apiserver/pkg/types"
-	v1alpha12 "github.com/rancher/harvester/pkg/apis/harvester.cattle.io/v1alpha1"
-	"github.com/rancher/harvester/pkg/config"
-	"github.com/rancher/harvester/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
 	"github.com/rancher/steve/pkg/resources/common"
 	"github.com/rancher/wrangler/pkg/schemas/validation"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+
+	v1alpha12 "github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io/v1alpha1"
+	"github.com/rancher/harvester-server/pkg/config"
+	"github.com/rancher/harvester-server/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
 )
 
 func Formatter(request *types.APIRequest, resource *types.RawResource) {

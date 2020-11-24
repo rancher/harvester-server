@@ -14,9 +14,9 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/watch"
 
-	harvesterapis "github.com/rancher/harvester/pkg/apis/harvester.cattle.io/v1alpha1"
-	"github.com/rancher/harvester/pkg/generated/clientset/versioned/fake"
-	harvestertype "github.com/rancher/harvester/pkg/generated/clientset/versioned/typed/harvester.cattle.io/v1alpha1"
+	harvesterapis "github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io/v1alpha1"
+	"github.com/rancher/harvester-server/pkg/generated/clientset/versioned/fake"
+	harvestertype "github.com/rancher/harvester-server/pkg/generated/clientset/versioned/typed/harvester.cattle.io/v1alpha1"
 )
 
 func TestHandler_OnKeyPairChanged(t *testing.T) {

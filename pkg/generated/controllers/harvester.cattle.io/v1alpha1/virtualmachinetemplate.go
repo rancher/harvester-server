@@ -22,7 +22,7 @@ import (
 	"context"
 	"time"
 
-	v1alpha1 "github.com/rancher/harvester/pkg/apis/harvester.cattle.io/v1alpha1"
+	v1alpha1 "github.com/rancher/harvester-server/pkg/apis/harvester.cattle.io/v1alpha1"
 	"github.com/rancher/lasso/pkg/client"
 	"github.com/rancher/lasso/pkg/controller"
 	"github.com/rancher/wrangler/pkg/apply"

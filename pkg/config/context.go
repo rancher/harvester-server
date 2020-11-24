@@ -13,11 +13,11 @@ import (
 	"github.com/rancher/wrangler/pkg/start"
 	"k8s.io/client-go/rest"
 
-	"github.com/rancher/harvester/pkg/auth/jwe"
-	"github.com/rancher/harvester/pkg/generated/controllers/cdi.kubevirt.io"
-	"github.com/rancher/harvester/pkg/generated/controllers/harvester.cattle.io"
-	cniv1 "github.com/rancher/harvester/pkg/generated/controllers/k8s.cni.cncf.io"
-	"github.com/rancher/harvester/pkg/generated/controllers/kubevirt.io"
+	"github.com/rancher/harvester-server/pkg/auth/jwe"
+	"github.com/rancher/harvester-server/pkg/generated/controllers/cdi.kubevirt.io"
+	"github.com/rancher/harvester-server/pkg/generated/controllers/harvester.cattle.io"
+	cniv1 "github.com/rancher/harvester-server/pkg/generated/controllers/k8s.cni.cncf.io"
+	"github.com/rancher/harvester-server/pkg/generated/controllers/kubevirt.io"
 )
 
 type (

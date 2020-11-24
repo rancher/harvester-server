@@ -7,17 +7,17 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/rancher/apiserver/pkg/apierror"
-	ctlkubevirtv1alpha3 "github.com/rancher/harvester/pkg/generated/controllers/kubevirt.io/v1alpha3"
-	"github.com/rancher/wrangler/pkg/schemas/validation"
-	"github.com/rancher/wrangler/pkg/slice"
+	ctlkubevirtv1alpha3 "github.com/rancher/harvester-server/pkg/generated/controllers/kubevirt.io/v1alpha3"
 
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
+	"github.com/rancher/apiserver/pkg/apierror"
+	"github.com/rancher/wrangler/pkg/schemas/validation"
+	"github.com/rancher/wrangler/pkg/slice"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/rest"
-	v1alpha3 "kubevirt.io/client-go/api/v1alpha3"
+	"kubevirt.io/client-go/api/v1alpha3"
 	cdiv1 "kubevirt.io/containerized-data-importer/pkg/apis/core/v1alpha1"
 )
 

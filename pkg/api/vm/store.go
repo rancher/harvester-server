@@ -12,8 +12,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	kv1alpha3 "kubevirt.io/client-go/api/v1alpha3"
 
-	ctlcdiv1beta1 "github.com/rancher/harvester/pkg/generated/controllers/cdi.kubevirt.io/v1beta1"
-	ctlkubevirtv1alpha3 "github.com/rancher/harvester/pkg/generated/controllers/kubevirt.io/v1alpha3"
+	ctlcdiv1beta1 "github.com/rancher/harvester-server/pkg/generated/controllers/cdi.kubevirt.io/v1beta1"
+	ctlkubevirtv1alpha3 "github.com/rancher/harvester-server/pkg/generated/controllers/kubevirt.io/v1alpha3"
 )
 
 type vmStore struct {

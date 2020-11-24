@@ -1,7 +1,6 @@
 //go:generate go run pkg/codegen/cleanup/main.go
 //go:generate /bin/rm -rf pkg/generated
 //go:generate go run pkg/codegen/main.go
-//go:generate /bin/bash scripts/generate-manifest
 
 package main
 
@@ -14,8 +13,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 
-	"github.com/rancher/harvester/pkg/config"
-	"github.com/rancher/harvester/pkg/server"
+	"github.com/rancher/harvester-server/pkg/config"
+	"github.com/rancher/harvester-server/pkg/server"
 )
 
 var (

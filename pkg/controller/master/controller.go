@@ -5,15 +5,15 @@ import (
 
 	"github.com/rancher/steve/pkg/server"
 
-	"github.com/rancher/harvester/pkg/config"
-	"github.com/rancher/harvester/pkg/controller/master/auth"
-	"github.com/rancher/harvester/pkg/controller/master/image"
-	"github.com/rancher/harvester/pkg/controller/master/keypair"
-	"github.com/rancher/harvester/pkg/controller/master/node"
-	"github.com/rancher/harvester/pkg/controller/master/template"
-	"github.com/rancher/harvester/pkg/controller/master/user"
-	"github.com/rancher/harvester/pkg/controller/master/virtualmachine"
-	"github.com/rancher/harvester/pkg/indexeres"
+	"github.com/rancher/harvester-server/pkg/config"
+	"github.com/rancher/harvester-server/pkg/controller/master/auth"
+	"github.com/rancher/harvester-server/pkg/controller/master/image"
+	"github.com/rancher/harvester-server/pkg/controller/master/keypair"
+	"github.com/rancher/harvester-server/pkg/controller/master/node"
+	"github.com/rancher/harvester-server/pkg/controller/master/template"
+	"github.com/rancher/harvester-server/pkg/controller/master/user"
+	"github.com/rancher/harvester-server/pkg/controller/master/virtualmachine"
+	"github.com/rancher/harvester-server/pkg/indexeres"
 )
 
 type registerFunc func(context.Context, *config.Management) error

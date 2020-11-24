@@ -21,10 +21,10 @@ package versioned
 import (
 	"fmt"
 
-	cdiv1beta1 "github.com/rancher/harvester/pkg/generated/clientset/versioned/typed/cdi.kubevirt.io/v1beta1"
-	harvesterv1alpha1 "github.com/rancher/harvester/pkg/generated/clientset/versioned/typed/harvester.cattle.io/v1alpha1"
-	k8scnicncfiov1 "github.com/rancher/harvester/pkg/generated/clientset/versioned/typed/k8s.cni.cncf.io/v1"
-	kubevirtv1alpha3 "github.com/rancher/harvester/pkg/generated/clientset/versioned/typed/kubevirt.io/v1alpha3"
+	cdiv1beta1 "github.com/rancher/harvester-server/pkg/generated/clientset/versioned/typed/cdi.kubevirt.io/v1beta1"
+	harvesterv1alpha1 "github.com/rancher/harvester-server/pkg/generated/clientset/versioned/typed/harvester.cattle.io/v1alpha1"
+	k8scnicncfiov1 "github.com/rancher/harvester-server/pkg/generated/clientset/versioned/typed/k8s.cni.cncf.io/v1"
+	kubevirtv1alpha3 "github.com/rancher/harvester-server/pkg/generated/clientset/versioned/typed/kubevirt.io/v1alpha3"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

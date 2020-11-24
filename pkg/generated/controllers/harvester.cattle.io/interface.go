@@ -19,7 +19,7 @@ limitations under the License.
 package harvester
 
 import (
-	v1alpha1 "github.com/rancher/harvester/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
+	v1alpha1 "github.com/rancher/harvester-server/pkg/generated/controllers/harvester.cattle.io/v1alpha1"
 	"github.com/rancher/lasso/pkg/controller"
 )
 

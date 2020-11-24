@@ -3,8 +3,8 @@ package auth
 import (
 	"context"
 
-	"github.com/rancher/harvester/pkg/config"
-	"github.com/rancher/harvester/pkg/settings"
+	"github.com/rancher/harvester-server/pkg/config"
+	"github.com/rancher/harvester-server/pkg/settings"
 
 	"github.com/rancher/steve/pkg/server"
 )
